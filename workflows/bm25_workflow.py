@@ -5,7 +5,8 @@ def run_bm25_workflow():
     index = create_bm25_index(DOCUMENTS)
     print("BM25 Index Created: ", index)
     
-    query = "What is the laptop replacement policy?"
+    # query = "What is the laptop replacement policy?"
+    query = "How can I get a new computer when my old machine needs changing?"
     results = search_bm25(index, DOCUMENTS, query, top_k=3)
     
     print("\nQUERY:")
