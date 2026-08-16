@@ -1,0 +1,4 @@
+PROJECT_NAME = "BM25 Search"
+VERSION = "1.0"
+AUTHOR = "Vaishali"
+BANNER_WIDTH = 40
