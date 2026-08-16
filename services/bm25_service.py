@@ -8,8 +8,8 @@ def create_bm25_index(documents):
         text = document["text"].lower().split()
         tokenized_documents.append(text)
 
-    print("Tokenized Documents:\n")
-    print(tokenized_documents)
+    # print("Tokenized Documents:\n")
+    # print(tokenized_documents)
 
     bm25Index = BM25Okapi(tokenized_documents)
     
